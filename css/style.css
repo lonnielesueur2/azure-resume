@@ -20,6 +20,14 @@ h4 {
   width: 240px;
   color: var(--accent-color);
 }
+.social-icons-foot {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  width: 240px;
+  font-size: 3em;
+  color: var(--primary-color);
+}
 body {
   margin: 0;
   background-color: var(--primary-color);
@@ -105,7 +113,7 @@ body {
   padding: 4px;
 }
 section {
-  border-bottom: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid var(--accent-color);
   margin: 0;
   color: rgb(255, 255, 255);
   padding: 20px;
@@ -126,7 +134,7 @@ section {
 }
 .resume-text {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 40px;
 }
 .row {
   display: flex;
@@ -148,6 +156,14 @@ img {
   }
 }
 
+.resume-info {
+  width: 1000px;
+  margin-top: 40px;
+  float: left;
+}
+.resume-info li{
+  padding: 10px;
+}
 .btn {
   display: inline-flex;
   margin: 4px;
@@ -170,4 +186,10 @@ img {
   position: absolute;
   bottom: 40px;
   color: var(--accent-color);
+}
+footer {
+  padding:20px;
+  width: auto;
+  background-color: var(--accent-color);
+  text-align: center;
 }
